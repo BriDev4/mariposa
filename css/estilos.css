@@ -1,0 +1,188 @@
+@charset "UTF 8";
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+/*Este es un comentario*/
+
+body{
+    background: url(../assets/fondo.jpg);
+    color: black;
+    background-attachment: fixed;
+}
+
+#mov{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(146, 198, 243);
+    color: rgba(240, 248, 255, 0);
+    text-align: center;
+    position: absolute;
+    top: 1200px;
+    transition: width 2s;
+}
+#mov:hover{
+    width: 800px;
+    color: black;
+}
+
+#mapa{
+position: absolute;
+right: 150px;
+top:100px
+z-index 1;
+}
+#info{
+    width: 400px;
+    height: 35px;
+    border-radius: 15%;
+    background-color: rgb(36, 240, 53);
+    color: rgb(0, 0, 0) ;
+    position: absolute;
+    top: 1150px;
+    text-align: center;
+}
+
+#video{
+    position: absolute;
+    left: 350px;
+    top: 750px;
+    z-index: 1;
+}
+
+#a{
+    position: absolute;
+    left: 350px;
+    top: 1550px;
+    z-index: 1;
+}
+#b{
+    position: absolute;
+    left: 350px;
+    top: 2770px;
+    z-index: 1;
+}
+#c{
+    position: absolute;
+    left: 350px;
+    top: 3750px;
+    z-index: 1;
+}
+#info1{
+    width: 400px;
+    height: 35px;
+    border-radius: 15%;
+    background-color: rgb(36, 240, 53);
+    color: rgb(0, 0, 0) ;
+    position: absolute;
+    top: 2370px;
+    text-align: center;
+}
+#mov1{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(146, 198, 243);
+    color: rgba(240, 248, 255, 0);
+    text-align: center;
+    position: absolute;
+    top: 2407px;
+    transition: width 2s;
+}
+#mov1:hover{
+    width: 800px;
+    color: black;
+
+}
+#info2{
+    width: 400px;
+    height: 35px;
+    border-radius: 15%;
+    background-color: rgb(36, 240, 53);
+    color: rgb(0, 0, 0) ;
+    position: absolute;
+    top: 3440px;
+    text-align: center;
+}
+#mov2{
+    width: 300px;
+    height: 230px;
+    background-color: rgb(146, 198, 243);
+    color: rgba(240, 248, 255, 0);
+    text-align: center;
+    position: absolute;
+    top: 3497px;
+    transition: width 2s;
+}
+#mov2:hover{
+    width: 1000px;
+    color: black;
+}
+#info3{
+    width: 400px;
+    height: 35px;
+    border-radius: 15%;
+    background-color: rgb(36, 240, 53);
+    color: rgb(0, 0, 0) ;
+    position: absolute;
+    top: 4070px;
+    text-align: center;
+}
+#mov3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(146, 198, 243);
+    color: rgba(240, 248, 255, 0);
+    text-align: center;
+    position: absolute;
+    top: 4117px;
+    transition: width 2s;
+}
+#mov3:hover{
+    width: 800px;
+    color: black;
+}
+#info4{
+    width: 400px;
+    height: 35px;
+    border-radius: 15%;
+    background-color: rgb(36, 240, 53);
+    color: rgb(0, 0, 0) ;
+    position: absolute;
+    top: 4330px;
+    text-align: center;
+}
+#mov4{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(146, 198, 243);
+    color: rgba(240, 248, 255, 0);
+    text-align: center;
+    position: absolute;
+    top: 4370px;
+    transition: width 2s;
+}
+#mov4:hover{
+    width: 800px;
+    color: black;
+}
+#d{
+    position: absolute;
+    left: 350px;
+    top: 4650px;
+    z-index: 1;
+}
+#e{
+    position: absolute;
+    right: 350px;
+    top: 3980px;
+    z-index: 1;
+}
+#f{
+    position: absolute;
+    right: 350px;
+    top: 3730px;
+    z-index: 1;
+}
+#g{
+    position: absolute;
+    right: 350px;
+    top: 4280px;
+    z-index: 1;
+}
